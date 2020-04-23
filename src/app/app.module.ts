@@ -10,6 +10,12 @@ import { Keyup3Component } from './keyup3/keyup3.component';
 import { Keyup4Component } from './keyup4/keyup4.component';
 import { LittleTourComponent } from './little-tour/little-tour.component';
 import { PeekABooComponent } from './peek-a-boo/peek-a-boo.component';
+import { HeroChildComponent } from './hero-child/hero-child.component';
+import { HeroParentComponent } from './hero-parent/hero-parent.component';
+import { NameChildComponent } from './name-child/name-child.component';
+import { NameParentComponent } from './name-parent/name-parent.component';
+import { VersionChildComponent } from './version-child/version-child.component';
+import { VersionParentComponent } from './version-parent/version-parent.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +27,13 @@ import { PeekABooComponent } from './peek-a-boo/peek-a-boo.component';
     Keyup3Component,
     Keyup4Component,
     LittleTourComponent,
-    PeekABooComponent
+    PeekABooComponent,
+    HeroChildComponent,
+    HeroParentComponent,
+    NameChildComponent,
+    NameParentComponent,
+    VersionChildComponent,
+    VersionParentComponent
   ],
   imports: [
     BrowserModule

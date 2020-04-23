@@ -10,6 +10,10 @@ export class PeekABooComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
+
 }
+
+//FALTA REALIZAR
