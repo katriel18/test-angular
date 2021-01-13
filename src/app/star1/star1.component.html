@@ -1,0 +1,19 @@
+<div *ngFor="let item of products">
+    <span class="product">Producto {{item}}</span>
+    <div class="ec-stars-wrapper star">
+        <a data-value="1" (click)="enviar(item,1)">&#9733;</a>
+        <a data-value="2" (click)="enviar(item,2)">&#9733;</a>
+        <a data-value="3" (click)="enviar(item,3)">&#9733;</a>
+        <a data-value="4" (click)="enviar(item,4)">&#9733;</a>
+        <a data-value="5" (click)="enviar(item,5)">&#9733;</a>
+    </div>
+    <span>{{this.valorations[item]}}</span>
+    <br>
+</div>
+
+<div class="ec-stars-wrapper" style="margin:auto;">
+    <span *ngFor="let number of [0,1,2,3,4,5]">
+        <a *ngIf="number<valor" style="color: green;">&#9733;</a>
+        <a *ngIf="number>valor" style="color: #888;">&#9733;</a>
+    </span>
+</div>

@@ -1,0 +1,32 @@
+.ec-stars-wrapper {
+    font-size: 0;
+    display: inline-block;
+}
+
+.ec-stars-wrapper a {
+    text-decoration: none;
+    display: inline-block;
+    /* Volver a dar tamaño al texto */
+    font-size: 32px;
+    font-size: 2rem;
+    color: #888;
+}
+
+.ec-stars-wrapper:hover a {
+    /* color: yellow;*/
+    color: green;
+}
+
+
+/*
+* El selector de hijo, es necesario para aumentar la especifidad
+*/
+
+.ec-stars-wrapper>a:hover~a {
+    color: #888;
+}
+
+.star {
+    margin-right: 15px;
+    margin-left: 15px;
+}

@@ -28,6 +28,7 @@ import { HeroDetailsComponent } from './hero-details/hero-details.component';
 import { HeroControlsComponent } from './hero-controls/hero-controls.component';
 import { HeroTeamComponent } from './hero-team/hero-team.component';
 import { QuestSummaryComponent } from './quest-summary/quest-summary.component';
+import { Star1Component } from './star1/star1.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +58,8 @@ import { QuestSummaryComponent } from './quest-summary/quest-summary.component';
     HeroDetailsComponent,
     HeroControlsComponent,
     HeroTeamComponent,
-    QuestSummaryComponent
+    QuestSummaryComponent,
+    Star1Component
   ],
   imports: [
     BrowserModule
