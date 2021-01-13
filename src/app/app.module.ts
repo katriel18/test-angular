@@ -23,6 +23,11 @@ import { CountdownParentComponent } from './countdown-parent/countdown-parent.co
 import { CountdownParentV2Component } from './countdown-parent-v2/countdown-parent-v2.component';
 import { MissioncontrolComponent } from './missioncontrol/missioncontrol.component';
 import { AstronautComponent } from './astronaut/astronaut.component';
+import { HeroAppComponent } from './hero-app/hero-app.component';
+import { HeroDetailsComponent } from './hero-details/hero-details.component';
+import { HeroControlsComponent } from './hero-controls/hero-controls.component';
+import { HeroTeamComponent } from './hero-team/hero-team.component';
+import { QuestSummaryComponent } from './quest-summary/quest-summary.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +52,12 @@ import { AstronautComponent } from './astronaut/astronaut.component';
     CountdownParentComponent,
     CountdownParentV2Component,
     MissioncontrolComponent,
-    AstronautComponent
+    AstronautComponent,
+    HeroAppComponent,
+    HeroDetailsComponent,
+    HeroControlsComponent,
+    HeroTeamComponent,
+    QuestSummaryComponent
   ],
   imports: [
     BrowserModule
